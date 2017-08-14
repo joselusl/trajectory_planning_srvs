@@ -1,0 +1,6 @@
+# Planned path
+nav_msgs/Path planned_path
+---
+# Planned path is collision free 
+std_msgs/Bool is_collision_free
+

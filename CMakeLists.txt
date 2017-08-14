@@ -33,7 +33,7 @@ add_service_files(
         srv
     FILES
         PlanPath.srv
-
+        CheckCollisionFreePath.srv
 
 
 )
