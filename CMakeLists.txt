@@ -34,6 +34,7 @@ add_service_files(
     FILES
         GenerateCollisionFreePath.srv
         CheckCollisionFreePath.srv
+        GenerateBetterCollisionFreePath.srv
 
 
 )
