@@ -5,4 +5,5 @@ geometry_msgs/PoseStamped pose_desired
 nav_msgs/Path collision_free_path
 # Raw planned collision free path
 nav_msgs/Path collision_free_path_raw
-
+# Cost of the collision free planned path
+float64 cost_planned_path

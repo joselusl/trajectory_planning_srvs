@@ -3,8 +3,11 @@ geometry_msgs/PoseStamped pose_desired
 # Previous planned collision free path
 nav_msgs/Path collision_free_path
 ---
+# Flag new planned collision free path
+std_msgs/Bool new_collision_free_path
 # New planned collision free path
 nav_msgs/Path collision_free_path
 # New planned raw collision free path
 nav_msgs/Path collision_free_path_raw
-
+# Cost of the collision free planned path
+float64 cost_planned_path
