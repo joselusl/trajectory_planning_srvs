@@ -1,6 +1,8 @@
 # Desired pose
 geometry_msgs/PoseStamped pose_desired
 ---
+# Planned path is collision free 
+bool is_collision_free
 # Planned collision free path
 nav_msgs/Path collision_free_path
 # Raw planned collision free path
