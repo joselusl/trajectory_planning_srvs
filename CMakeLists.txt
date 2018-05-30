@@ -24,7 +24,7 @@ endif()
 
 
 find_package(catkin REQUIRED
-                COMPONENTS message_generation std_msgs geometry_msgs nav_msgs)
+                COMPONENTS message_generation std_msgs geometry_msgs nav_msgs robot_geometry_msgs)
 
 
 
@@ -35,19 +35,20 @@ add_service_files(
         GenerateCollisionFreePath.srv
         CheckCollisionFreePath.srv
         GenerateBetterCollisionFreePath.srv
+        GetTrajectoryPoints.srv
 
 
 )
 
 
 
-generate_messages(DEPENDENCIES std_msgs geometry_msgs nav_msgs)
+generate_messages(DEPENDENCIES std_msgs geometry_msgs nav_msgs robot_geometry_msgs)
 
 
 
 
 catkin_package(
-    CATKIN_DEPENDS message_runtime std_msgs geometry_msgs nav_msgs
+    CATKIN_DEPENDS message_runtime std_msgs geometry_msgs nav_msgs robot_geometry_msgs
 	)
 
 

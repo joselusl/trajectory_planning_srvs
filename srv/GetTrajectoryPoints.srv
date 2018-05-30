@@ -1,0 +1,11 @@
+# Header
+Header header
+# Desired points stamp.
+time[] points_stamp
+# Relative time stamp
+# If true: Relative to current time stamp
+# If false: Absolute time stamp
+bool flag_relative_time_stamp
+---
+# Points of the trajectory
+robot_geometry_msgs/RobotState[] trajectory_points
