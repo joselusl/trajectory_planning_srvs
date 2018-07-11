@@ -1,4 +1,6 @@
 # Header
+# It includes the timestamp of the trajectory points
+# It includes the desired parent frame_id of the trajectory points
 Header header
 # Desired points stamp.
 time[] points_stamp
