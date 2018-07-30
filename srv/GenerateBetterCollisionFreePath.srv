@@ -1,3 +1,6 @@
+# Current pose
+bool pose_current_set
+geometry_msgs/PoseStamped pose_current
 # Desired pose
 geometry_msgs/PoseStamped pose_desired
 # Previous planned collision free path

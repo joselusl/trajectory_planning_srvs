@@ -1,3 +1,6 @@
+# Current pose
+bool pose_current_set
+geometry_msgs/PoseStamped pose_current
 # Planned path
 nav_msgs/Path planned_path
 ---
