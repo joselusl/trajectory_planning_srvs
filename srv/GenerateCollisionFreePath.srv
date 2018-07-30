@@ -1,3 +1,5 @@
+# Current pose
+geometry_msgs/PoseStamped pose_current
 # Desired pose
 geometry_msgs/PoseStamped pose_desired
 ---
